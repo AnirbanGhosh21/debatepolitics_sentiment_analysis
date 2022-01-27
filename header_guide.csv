@@ -1,0 +1,11 @@
+Header Name, Description, Source
+Poster, User Name of the person posting the comment or thread, From website
+Content, Content of the thread/comment, From website
+Thread, Thread to which the data belongs, From website
+Location, Location from where the poster is from, From website
+Political_leaning, Political values of the poster, From website
+Subjectivity, How subjective or objective is the 'Content' field, From analysis of 'Content' using textblob
+Polarity, How positive or negative is the 'Content' field, From analysis of 'Content' using textblob
+Party, Derived from political leaning, jupyter notebook
+Thread_Type, Which party does the thread align with, Dervived from average polarity of the thread
+State, Which state the poster is from, Derived from Location
